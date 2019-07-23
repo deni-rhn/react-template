@@ -12,7 +12,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
    - NPM 5.6.0
 
 ### `How To Run ?`
-   - Install Dependency
    - Install Dependecies
      ```shell
      $ npm install
