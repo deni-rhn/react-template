@@ -1,5 +1,7 @@
 import React, { Component, Fragment } from 'react';
 import '../../../assets/css/_polda_diy.css';
+import '../../../assets/css/custom.css';
+import 'bootstrap/dist/js/bootstrap.min.js';
 import logo from '../../../assets/img/logo.png';
 
 class HeaderComponent extends Component {
