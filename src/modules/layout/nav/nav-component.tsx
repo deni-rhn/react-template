@@ -1,5 +1,8 @@
 import React, { Component, Fragment } from 'react';
 import '../../../assets/css/_polda_diy.css';
+import Blog1 from '../../../assets/img/blog/1.jpg';
+import Blog2 from '../../../assets/img/blog/2.jpg';
+import Blog3 from '../../../assets/img/blog/3.jpg';
 
 class NavComponent extends Component {
     render(){
@@ -35,21 +38,21 @@ class NavComponent extends Component {
                                         <div className="col-md-3">
                                             <h5><i className="fa fa-users" aria-hidden="true"></i> Teams List</h5>
                                             <div className="img-hover">
-                                                <img src="img/blog/1.jpg" alt="" className="img-responsive" />
+                                                <img src={Blog1} alt="" className="img-responsive" />
                                                 <div className="overlay"><a href="teams.html">+</a></div>
                                             </div>
                                         </div>
                                         <div className="col-md-3">
                                             <h5><i className="fa fa-futbol-o" aria-hidden="true"></i> Players List</h5>
                                             <div className="img-hover">
-                                                <img src="img/blog/2.jpg" alt="" className="img-responsive" />
+                                                <img src={Blog2} alt="" className="img-responsive" />
                                                 <div className="overlay"><a href="players.html">+</a></div>
                                             </div>
                                         </div>
                                         <div className="col-md-3">
                                             <h5><i className="fa fa-gamepad" aria-hidden="true"></i> Results Info</h5>
                                             <div className="img-hover">
-                                                <img src="img/blog/3.jpg" alt="" className="img-responsive" />
+                                                <img src={Blog3} alt="" className="img-responsive" />
                                                 <div className="overlay"><a href="results.html">+</a></div>
                                             </div>
                                         </div>
