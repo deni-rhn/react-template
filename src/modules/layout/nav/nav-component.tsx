@@ -4,11 +4,12 @@ import Blog1 from '../../../assets/img/blog/1.jpg';
 import Blog2 from '../../../assets/img/blog/2.jpg';
 import Blog3 from '../../../assets/img/blog/3.jpg';
 
-class NavComponent extends Component {
+class NavComponent extends Component<any, any> {
+
     render(){
         return(
             <Fragment>
-                <nav className="mainmenu">
+                <nav className="mainmenu nav-sticky">
                     <div className="container">
 
                         <ul className="sf-menu" id="menu">
@@ -101,61 +102,22 @@ class NavComponent extends Component {
 
                 <div id="mobile-nav">
 
-                    <ul>
-                        <li>
-                            <a href="#">Home</a>
-                            <ul>
-                                <li>
-                                    <a href="#">Home 1</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="#">World Cup</a>
-                            <ul>
-                                <li>
-                                    <a href="#">World Cup</a>
-                                    <ul>
-                                        <li><a href="#">Point Table</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="#">Teams List</a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="#">Features</a>
-                            <ul>
-                                <li>
-                                    <a href="#">Features</a>
-                                    <ul>
-                                        <li><a href="#">Full Width</a></li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <a href="#">Headers & Footers</a>
-                                    <ul>
-                                        <li><a href="#">Header Version 1</a></li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <a href="#">Pages</a>
-                                    <ul>
-                                        <li><a href="#">About Us</a></li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <a href="#">News</a>
-                                    <ul>
-                                        <li>
-                                            <a href="#">News Lef Sidebar</a>
-                                        </li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
-
+                <div className="pos-f-t">
+                    <div className="collapse" id="navbarToggleExternalContent">
+                        <div className="bg-white p-4">
+                            <h5 className="text-white h4">Collapsed content</h5>
+                            <span className="text-muted">Toggleable via the navbar brand.</span>
+                        </div>
+                    </div>
+                    <nav className="navbar navbar-dark bg-dark">
+                        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span className="navbar-toggler-icon"></span>
+                        </button>
+                    </nav>
                 </div>
+                    
+                </div>
+            
             </Fragment>
         );
     }
