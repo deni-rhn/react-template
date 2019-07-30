@@ -7,6 +7,7 @@ import HomeComponent from '../home-component';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import PointTableComponent from '../../poin-table/point-table-component';
 import ResultListComponent from '../../result/result-list/result-list-component';
+import ScheduleComponent from '../../schedule/schedule-component';
 
 class PatternComponent extends Component {
 
@@ -28,6 +29,7 @@ class PatternComponent extends Component {
                                 <Route path='/' exact={true} component={HomeComponent} />
                                 <Route path='/perolehan-medali' exact={true} component={PointTableComponent} />
                                 <Route path='/hasil-pertandingan' exact={true} component={ResultListComponent} />
+                                <Route path='/jadwal-pertandingan' exact={true} component={ScheduleComponent} />
                             
                         </div>
                     </Switch>

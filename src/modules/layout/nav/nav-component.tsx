@@ -79,9 +79,13 @@ class NavComponent extends Component<any, any> {
                                             </ul>
                                         </div>
                                         <div className="col-md-3">
-                                            <h5>Headers & Footers</h5>
+                                            <h5>Jadwal</h5>
                                             <ul>
-                                                <li><a href="#">Header Version 1</a></li>
+                                                <li>
+                                                    <Link to="/jadwal-pertandingan">
+                                                        <span>Cek Jadwal Pertandingan</span>
+                                                    </Link>
+                                                </li>
                                             </ul>
                                         </div>
                                         <div className="col-md-3">
