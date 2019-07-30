@@ -2,6 +2,8 @@ import React, { Component, Fragment } from 'react';
 import '../../../assets/css/_polda_diy.css';
 import '../../../assets/css/custom.css';
 import logo from '../../../assets/img/logo.png';
+import 'bootstrap/dist/js/bootstrap.min.js';
+import {Link} from 'react-router-dom';
 
 class HeaderComponent extends Component {
 
@@ -16,9 +18,11 @@ class HeaderComponent extends Component {
 
                                 <div className="col">
                                     <div className="logo">
-                                        <a href="index.html" title="Return Home">
-                                            <img src={logo} alt="Logo" className="logo_img" />
-                                        </a>
+                                        <Link to="/">
+                                            <span>
+                                                <img src={logo} alt="Logo" className="logo_img" />
+                                            </span>
+                                        </Link>                                        
                                     </div>
                                 </div>
 
