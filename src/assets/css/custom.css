@@ -9,3 +9,12 @@
 .slider-3 {
     background: url('../img/slider/3.jpg');
 }
+
+.nav-sticky {
+    position: sticky !important;
+    top: 0px;
+}
+
+.bg-custom {
+    background: url('../img/slider/1.jpg');   
+}
