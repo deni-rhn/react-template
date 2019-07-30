@@ -26,24 +26,16 @@ class NavComponent extends Component<any, any> {
                             </li>
 
                             <li>
-                                <a href="#">World Cup</a>
+                                <a href="#">Data</a>
                                 <div className="sf-mega">
                                     <div className="row">
                                         <div className="col-md-3">
-                                            <h5><i className="fa fa-trophy" aria-hidden="true"></i>World Cup</h5>
-                                            <ul>
-                                                <li><a href="#">Point Table</a></li>
-                                                <li><a href="#">Fixtures</a></li>
-                                                <li><a href="#">Groups</a></li>
-                                                <li><a href="#">News</a></li>
-                                                <li><a href="#">Contact Us</a></li>
-                                            </ul>
-                                        </div>
-                                        <div className="col-md-3">
-                                            <h5><i className="fa fa-users" aria-hidden="true"></i> Teams List</h5>
+                                            <h5><i className="fa fa-users" aria-hidden="true"></i> Daftar Team</h5>
                                             <div className="img-hover">
-                                                <img src={Blog1} alt="" className="img-responsive" />
-                                                <div className="overlay"><a href="teams.html">+</a></div>
+                                                <Link to="/daftar-tim">
+                                                    <img src={Blog1} alt="" className="img-responsive" />
+                                                    <div className="overlay"><span>+</span></div>
+                                                </Link>
                                             </div>
                                         </div>
                                         <div className="col-md-3">
