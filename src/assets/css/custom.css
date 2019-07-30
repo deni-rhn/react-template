@@ -14,3 +14,7 @@
     position: sticky !important;
     top: 0px;
 }
+
+.bg-custom {
+    background: url('../img/slider/1.jpg');   
+}

@@ -6,6 +6,7 @@ import HeaderComponent from '../header/header-component';
 import HomeComponent from '../home-component';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import PointTableComponent from '../../poin-table/point-table-component';
+import ResultListComponent from '../../result/result-list/result-list-component';
 
 class PatternComponent extends Component {
 
@@ -26,6 +27,7 @@ class PatternComponent extends Component {
                             <NavComponent />
                                 <Route path='/' exact={true} component={HomeComponent} />
                                 <Route path='/perolehan-medali' exact={true} component={PointTableComponent} />
+                                <Route path='/hasil-pertandingan' exact={true} component={ResultListComponent} />
                             
                         </div>
                     </Switch>

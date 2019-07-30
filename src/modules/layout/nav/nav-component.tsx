@@ -65,13 +65,17 @@ class NavComponent extends Component<any, any> {
                             </li>
 
                             <li>
-                                <a href="#">Features</a>
+                                <a href="#">Informasi</a>
                                 <div className="sf-mega">
                                     <div className="row">
                                         <div className="col-md-3">
-                                            <h5>Features</h5>
+                                            <h5>Hasil Pertandingan</h5>
                                             <ul>
-                                                <li><a href="#">Full Width</a></li>
+                                                <li>
+                                                    <Link to="/hasil-pertandingan">
+                                                        <span>Cek Hasil Pertandingan</span>
+                                                    </Link>
+                                                </li>
                                             </ul>
                                         </div>
                                         <div className="col-md-3">

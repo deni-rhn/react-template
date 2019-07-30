@@ -2,11 +2,13 @@ import React, { Component, Fragment } from 'react';
 import Ir from '../../assets/img/club-logo/irn.png';
 import Uru from '../../assets/img/club-logo/uru.png';
 import Por from '../../assets/img/club-logo/por.png';
+import BgCustomComponent from '../layout/bg-custom/bg-custom-component';
 
 class PointTableComponent extends Component<any, any> {
     render() {
         return(
             <Fragment>
+                <BgCustomComponent />
                 <section className="content-info">
                     <div className="container paddings-mini">
                         <div className="row">
