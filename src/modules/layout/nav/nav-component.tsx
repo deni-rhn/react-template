@@ -26,8 +26,10 @@ class NavComponent extends Component<any, any> {
                             </li>
 
                             <li>
-                                <a href="#">Data</a>
-                                <div className="sf-mega">
+                                <Link to="/daftar-tim">
+                                    <span>Data Team</span>
+                                </Link>
+                                {/* <div className="sf-mega">
                                     <div className="row">
                                         <div className="col-md-3">
                                             <h5><i className="fa fa-users" aria-hidden="true"></i> Daftar Team</h5>
@@ -38,22 +40,22 @@ class NavComponent extends Component<any, any> {
                                                 </Link>
                                             </div>
                                         </div>
-                                        <div className="col-md-3">
-                                            <h5><i className="fa fa-futbol-o" aria-hidden="true"></i> Players List</h5>
+                                        <div className="col-md-3"> */}
+                                            {/* <h5><i className="fa fa-futbol-o" aria-hidden="true"></i> Players List</h5>
                                             <div className="img-hover">
                                                 <img src={Blog2} alt="" className="img-responsive" />
                                                 <div className="overlay"><a href="players.html">+</a></div>
-                                            </div>
-                                        </div>
-                                        <div className="col-md-3">
-                                            <h5><i className="fa fa-gamepad" aria-hidden="true"></i> Results Info</h5>
+                                            </div> */}
+                                        {/* </div>
+                                        <div className="col-md-3"> */}
+                                            {/* <h5><i className="fa fa-gamepad" aria-hidden="true"></i> Results Info</h5>
                                             <div className="img-hover">
                                                 <img src={Blog3} alt="" className="img-responsive" />
                                                 <div className="overlay"><a href="results.html">+</a></div>
-                                            </div>
-                                        </div>
+                                            </div> */}
+                                        {/* </div>
                                     </div>
-                                </div>
+                                </div> */}
                             </li>
 
                             <li>
@@ -81,18 +83,22 @@ class NavComponent extends Component<any, any> {
                                             </ul>
                                         </div>
                                         <div className="col-md-3">
-                                            <h5>Pages</h5>
+                                            <h5>Medali</h5>
                                             <ul>
-                                                <li><a href="#">About Us</a></li>
+                                                <li>
+                                                    <Link to="/medali-cabang">
+                                                        <span>Perolehan Medali Per Cabang</span>
+                                                    </Link>
+                                                </li>
                                             </ul>
                                         </div>
                                         <div className="col-md-3">
-                                            <h5>News</h5>
+                                            {/* <h5>News</h5>
                                             <ul>
                                                 <li>
                                                     <a href="#">News Lef Sidebar</a>
                                                 </li>
-                                            </ul>
+                                            </ul> */}
                                         </div>
                                         <i className="fa fa-trophy big-icon" aria-hidden="true"></i>
                                     </div>
