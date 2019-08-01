@@ -1,6 +1,5 @@
 import React, { Component, Fragment } from 'react';
-
-const Vid: string = 'https://www.youtube.com/embed/AfOlAUd7u4o';
+import Iframe from 'react-iframe'
 
 class PresentationComponent extends Component {
     render() {
@@ -12,7 +11,9 @@ class PresentationComponent extends Component {
                     </div>
 
                     <div className="row">
-                        <iframe src={Vid} className="video"></iframe>
+                    <Iframe
+                        url='https://www.youtube.com/embed/AfOlAUd7u4o'
+                    />
                         <div className="info-panel">
                             <h4>Rio de Janeiro</h4>
                             <p>Lorem ipsum dolor sit amet, sit amet, consectetur adipisicing elit, elit,

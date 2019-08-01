@@ -15,15 +15,15 @@ class RecentNewsComponent extends Component {
                             <div className="col-md-4">
                                 <div className="img-hover">
                                     <img src={Blog1} alt="" className="img-responsive" />
-                                    <div className="overlay"><a href="single-news.html">+</a></div>
+                                    <div className="overlay"><span>+</span></div>
                                 </div>
                             </div>
                             <div className="col-md-8">
-                                <h5><a href="single-news.html">Group Stage Breakdown</a></h5>
-                                <span className="data-info">January 3, 2014 / <i className="fa fa-comments"></i><a
-                                        href="#">0</a></span>
+                                <h5><span>Group Stage Breakdown</span></h5>
+                                <span className="data-info">January 3, 2014 / <i className="fa fa-comments"></i><span
+                                        >0</span></span>
                                 <p>While familiar with fellow European nation France, Hareide admits that South
-                                    American side Peru.<a href="single-news.html">Read More [+]</a></p>
+                                    American side Peru.<span>Read More [+]</span></p>
                             </div>
                         </div>
                     </div>
@@ -33,15 +33,15 @@ class RecentNewsComponent extends Component {
                             <div className="col-md-4">
                                 <div className="img-hover">
                                     <img src={Blog1} alt="" className="img-responsive" />
-                                    <div className="overlay"><a href="single-news.html">+</a></div>
+                                    <div className="overlay"><span>+</span></div>
                                 </div>
                             </div>
                             <div className="col-md-8">
-                                <h5><a href="single-news.html">Group Stage Breakdown</a></h5>
-                                <span className="data-info">January 3, 2014 / <i className="fa fa-comments"></i><a
-                                        href="#">0</a></span>
+                                <h5><span>Group Stage Breakdown</span></h5>
+                                <span className="data-info">January 3, 2014 / <i className="fa fa-comments"></i><span
+                                        >0</span></span>
                                 <p>While familiar with fellow European nation France, Hareide admits that South
-                                    American side Peru.<a href="single-news.html">Read More [+]</a></p>
+                                    American side Peru.<span>Read More [+]</span></p>
                             </div>
                         </div>
                     </div>

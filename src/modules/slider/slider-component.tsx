@@ -17,8 +17,8 @@ class SliderComponent extends Component {
                                             <p>While familiar with fellow European nation France, Hareide admits that
                                                 South
                                                 American side Peru.</p>
-                                            <a href="#" className="btn-iw outline">Read More <i
-                                                    className="fa fa-long-arrow-right"></i></a>
+                                            <span className="btn-iw outline">Read More <i
+                                                    className="fa fa-long-arrow-right"></i></span>
                                         </div>
                                     </div>
                                 </div>
@@ -35,8 +35,8 @@ class SliderComponent extends Component {
                                             <p>The outdoor exhibition on Manezhnaya Square comprises 11 figures that
                                                 symbolise
                                                 the main sites of interest.</p>
-                                            <a href="#" className="btn-iw outline">Read More <i
-                                                    className="fa fa-long-arrow-right"></i></a>
+                                            <span className="btn-iw outline">Read More <i
+                                                    className="fa fa-long-arrow-right"></i></span>
                                         </div>
                                     </div>
                                 </div>
@@ -53,8 +53,8 @@ class SliderComponent extends Component {
                                             <p>While familiar with fellow European nation France, Hareide admits that
                                                 South
                                                 American side Peru.</p>
-                                            <a href="#" className="btn-iw outline">Read More <i
-                                                    className="fa fa-long-arrow-right"></i></a>
+                                            <span className="btn-iw outline">Read More <i
+                                                    className="fa fa-long-arrow-right"></i></span>
                                         </div>
                                     </div>
                                 </div>

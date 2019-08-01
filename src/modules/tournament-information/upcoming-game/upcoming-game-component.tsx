@@ -41,10 +41,10 @@ class UpcomingGameComponent extends Component {
                                     </div>
                                 </div>
                             </div>
-                            <a className="btn btn-primary" href="#">
+                            <span className="btn btn-primary">
                                 PURCHASE
                                 <i className="fa fa-trophy"></i>
-                            </a>
+                            </span>
                         </div>
                     </div>
 

@@ -8,10 +8,10 @@ class LinkFooter extends Component {
                     <div className="info-links">
                         <h5>Organisation</h5>
                         <ul>
-                            <li><a href="#">Volunteers</a></li>
-                            <li><a href="#">Committees</a></li>
-                            <li><a href="#">Official Documents</a></li>
-                            <li><a href="#">Terms of Service</a></li>
+                            <li><span>Volunteers</span></li>
+                            <li><span>Committees</span></li>
+                            <li><span>Official Documents</span></li>
+                            <li><span>Terms of Service</span></li>
                         </ul>
                     </div>
                 </div>
@@ -21,14 +21,14 @@ class LinkFooter extends Component {
                     <div className="info-links">
                         <h5>Groups</h5>
                         <ul className="columns">
-                            <li><a href="#">GROUP A</a></li>
-                            <li><a href="#">GROUP B</a></li>
-                            <li><a href="#">GROUP C</a></li>
-                            <li><a href="#">GROUP D</a></li>
-                            <li><a href="#">GROUP E</a></li>
-                            <li><a href="#">GROUP F</a></li>
-                            <li><a href="#">GROUP G</a></li>
-                            <li><a href="#">GROUP H</a></li>
+                            <li><span>GROUP A</span></li>
+                            <li><span>GROUP B</span></li>
+                            <li><span>GROUP C</span></li>
+                            <li><span>GROUP D</span></li>
+                            <li><span>GROUP E</span></li>
+                            <li><span>GROUP F</span></li>
+                            <li><span>GROUP G</span></li>
+                            <li><span>GROUP H</span></li>
                         </ul>
                     </div>
                 </div>
@@ -38,10 +38,10 @@ class LinkFooter extends Component {
                     <div className="info-links">
                         <h5>Interest Links</h5>
                         <ul>
-                            <li><a href="#">Statistics</a></li>
-                            <li><a href="#">Teams</a></li>
-                            <li><a href="#">Qualifiers</a></li>
-                            <li><a href="#">Ticketing</a></li>
+                            <li><span>Statistics</span></li>
+                            <li><span>Teams</span></li>
+                            <li><span>Qualifiers</span></li>
+                            <li><span>Ticketing</span></li>
                         </ul>
                     </div>
                 </div>
@@ -51,14 +51,14 @@ class LinkFooter extends Component {
                     <div className="info-links">
                         <h5>Organisation</h5>
                         <ul className="columns">
-                            <li><a href="#">NIZHNY NOVGOROD</a></li>
-                            <li><a href="#">SAINT PETERSBURG</a></li>
-                            <li><a href="#">EKATERINBURG</a></li>
-                            <li><a href="#">MOSCOW</a></li>
-                            <li><a href="#">KAZAN</a></li>
-                            <li><a href="#">KALININGRAD</a></li>
-                            <li><a href="#">VOLGOGRAD</a></li>
-                            <li><a href="#">ROSTOV-ON-DON</a></li>
+                            <li><span>NIZHNY NOVGOROD</span></li>
+                            <li><span>SAINT PETERSBURG</span></li>
+                            <li><span>EKATERINBURG</span></li>
+                            <li><span>MOSCOW</span></li>
+                            <li><span>KAZAN</span></li>
+                            <li><span>KALININGRAD</span></li>
+                            <li><span>VOLGOGRAD</span></li>
+                            <li><span>ROSTOV-ON-DON</span></li>
                         </ul>
                     </div>
                 </div>
