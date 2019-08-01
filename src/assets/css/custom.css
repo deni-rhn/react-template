@@ -18,3 +18,7 @@
 .bg-custom {
     background: url('../img/slider/1.jpg');   
 }
+
+.filter-class {
+    margin-bottom: 25px;
+}

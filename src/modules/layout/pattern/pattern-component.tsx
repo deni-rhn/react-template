@@ -9,6 +9,7 @@ import PointTableComponent from '../../poin-table/point-table-component';
 import ResultListComponent from '../../result/result-list/result-list-component';
 import ScheduleComponent from '../../schedule/schedule-component';
 import TeamListComponent from '../../teams/team-list/team-list-component';
+import PointTableCabangComponent from '../../poin-table/point-table-cabang/point-table-cabang-component';
 
 class PatternComponent extends Component {
 
@@ -32,6 +33,7 @@ class PatternComponent extends Component {
                                 <Route path='/hasil-pertandingan' exact={true} component={ResultListComponent} />
                                 <Route path='/jadwal-pertandingan' exact={true} component={ScheduleComponent} />
                                 <Route path='/daftar-tim' exact={true} component={TeamListComponent} />
+                                <Route path='/medali-cabang' exact={true} component={PointTableCabangComponent} />
                             
                         </div>
                     </Switch>
