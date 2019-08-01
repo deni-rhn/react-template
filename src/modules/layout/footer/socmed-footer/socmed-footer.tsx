@@ -14,37 +14,37 @@ class SocmedFooter extends Component {
                 <ul className="social">
                     <li>
                         <div>
-                            <a href="#" className="facebook">
+                            <span className="facebook">
                                 <i className="fa fa-facebook"></i>
-                            </a>
+                            </span>
                         </div>
                     </li>
                     <li>
                         <div>
-                            <a href="#" className="twitter-icon">
+                            <span className="twitter-icon">
                                 <i className="fa fa-twitter"></i>
-                            </a>
+                            </span>
                         </div>
                     </li>
                     <li>
                         <div>
-                            <a href="#" className="vimeo">
+                            <span className="vimeo">
                                 <i className="fa fa-vimeo-square"></i>
-                            </a>
+                            </span>
                         </div>
                     </li>
                     <li>
                         <div>
-                            <a href="#" className="google-plus">
+                            <span className="google-plus">
                                 <i className="fa fa-google-plus"></i>
-                            </a>
+                            </span>
                         </div>
                     </li>
                     <li>
                         <div>
-                            <a href="#" className="youtube">
+                            <span className="youtube">
                                 <i className="fa fa-youtube"></i>
-                            </a>
+                            </span>
                         </div>
                     </li>
                 </ul>

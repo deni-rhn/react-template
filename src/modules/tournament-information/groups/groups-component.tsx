@@ -16,63 +16,63 @@ class GroupsComponent extends Component {
                     <div className="groups-list">
                         <div className="row">
                             <div className="col-lg-3 col-md-6">
-                                <h5><a href="groups.html">GROUP A</a></h5>
+                                <h5><span>GROUP A</span></h5>
                                 <div className="item-group">
                                     <ul>
                                         <li>
-                                            <a href="#">
+                                            <span>
                                                 <img src={Rus} alt="" />
                                                 Russia
-                                            </a>
+                                            </span>
                                         </li>
                                         <li>
-                                            <a href="#">
+                                            <span>
                                                 <img src={SA} alt="" />
                                                 Saudi Arabia
-                                            </a>
+                                            </span>
                                         </li>
                                         <li>
-                                            <a href="#">
+                                            <span>
                                                 <img src={Egypt} alt="" />
                                                 Egypt
-                                            </a>
+                                            </span>
                                         </li>
                                         <li>
-                                            <a href="#">
+                                            <span>
                                                 <img src={Uru} alt="" />
                                                 Uruguay
-                                            </a>
+                                            </span>
                                         </li>
                                     </ul>
                                 </div>
                             </div>
                             <div className="col-lg-3 col-md-6">
-                                <h5><a href="groups.html">GROUP B</a></h5>
+                                <h5><span>GROUP B</span></h5>
                                 <div className="item-group">
                                     <ul>
                                         <li>
-                                            <a href="#">
+                                            <span>
                                                 <img src={Por} alt="" />
                                                 Portugal
-                                            </a>
+                                            </span>
                                         </li>
                                         <li>
-                                            <a href="#">
+                                            <span>
                                                 <img src={Esp} alt="" />
                                                 Spain
-                                            </a>
+                                            </span>
                                         </li>
                                         <li>
-                                            <a href="#">
+                                            <span>
                                                 <img src={Mor} alt="" />
                                                 Morocco
-                                            </a>
+                                            </span>
                                         </li>
                                         <li>
-                                            <a href="#">
+                                            <span>
                                                 <img src={Ir} alt="" />
                                                 IR Iran
-                                            </a>
+                                            </span>
                                         </li>
                                     </ul>
                                 </div>

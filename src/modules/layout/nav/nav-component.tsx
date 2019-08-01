@@ -1,8 +1,8 @@
 import React, { Component, Fragment } from 'react';
 import '../../../assets/css/_polda_diy.css';
-import Blog1 from '../../../assets/img/blog/1.jpg';
-import Blog2 from '../../../assets/img/blog/2.jpg';
-import Blog3 from '../../../assets/img/blog/3.jpg';
+// import Blog1 from '../../../assets/img/blog/1.jpg';
+// import Blog2 from '../../../assets/img/blog/2.jpg';
+// import Blog3 from '../../../assets/img/blog/3.jpg';
 import {Link} from 'react-router-dom';
 
 class NavComponent extends Component<any, any> {
@@ -20,8 +20,8 @@ class NavComponent extends Component<any, any> {
                                 </Link>
                                 {/* <ul className="sub-current">
                                     <li>
-                                        <a href="#">Home 1</a>
-                                    </li>
+                                        <span/a>
+        span                           </li>
                                 </ul> */}
                             </li>
 
@@ -59,7 +59,7 @@ class NavComponent extends Component<any, any> {
                             </li>
 
                             <li>
-                                <a href="#">Informasi</a>
+                                <span>Informasi</span>
                                 <div className="sf-mega">
                                     <div className="row">
                                         <div className="col-md-3">
@@ -96,7 +96,7 @@ class NavComponent extends Component<any, any> {
                                             {/* <h5>News</h5>
                                             <ul>
                                                 <li>
-                                                    <a href="#">News Lef Sidebar</a>
+                                                    <spanf Sidebar</aspan
                                                 </li>
                                             </ul> */}
                                         </div>
