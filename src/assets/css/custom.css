@@ -10,9 +10,23 @@
     background: url('../img/slider/3.jpg');
 }
 
-.nav-sticky {
+.nav-sticky, 
+.mobile-sticky {
     position: sticky !important;
     top: 0px;
+}
+
+.zi{
+    z-index: 100;
+}
+
+.mob-li > li > a > span {
+    color: #000000;
+}
+
+.btn-tg{
+    background: transparent !important;
+    color: #000000;
 }
 
 .bg-custom {
@@ -21,4 +35,10 @@
 
 .filter-class {
     margin-bottom: 25px;
+}
+
+@media(max-width:1199px) {
+    .nav-sticky {
+        display: none
+    }
 }

@@ -34,12 +34,12 @@ class PatternComponent extends Component {
                                 <Route path='/jadwal-pertandingan' exact={true} component={ScheduleComponent} />
                                 <Route path='/daftar-tim' exact={true} component={TeamListComponent} />
                                 <Route path='/medali-cabang' exact={true} component={PointTableCabangComponent} />
+
+                            <FooterComponent />
                             
                         </div>
                     </Switch>
                 </Router>
-
-                <FooterComponent />
                 
             </Fragment>
         );

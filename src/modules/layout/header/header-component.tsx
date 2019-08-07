@@ -26,10 +26,6 @@ class HeaderComponent extends Component {
                                     </div>
                                 </div>
 
-                                <div className="col">
-                                    <a className="mobile-nav" href="#mobile-nav"><i className="fa fa-bars"></i></a>
-                                </div>
-
                             </div>
                         </div>
                     </div>
