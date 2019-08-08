@@ -13931,7 +13931,7 @@ iframe.big-video {
 }
 
 .hero-header {
-    height: 570px;
+    height: auto;
     display: block;
     position: relative;
     overflow: hidden
@@ -13939,7 +13939,7 @@ iframe.big-video {
 
 @media(max-width:767px) {
     .hero-header {
-        height: 450px
+        height: auto
     }
 }
 

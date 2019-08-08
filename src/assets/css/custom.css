@@ -139,3 +139,15 @@
   .margin-0-auto{
       margin: 0 auto;
   }
+
+@media(max-width:767px) {
+    .fs-12{
+        font-size: 12px !important;
+    }
+    .recent-results .info-results ul li .goals-result{
+        display: block !important;
+    }
+    .recent-results.results-page .info-results ul li .goals-result a{
+        margin-bottom: 20px;
+    }
+}

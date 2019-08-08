@@ -21,10 +21,10 @@ class ResultListComponent extends Component<any, any> {
                                                     Bantul Vs Yogyakarta | Cabor Sepakbola <span className="date">27 AGT 2019</span>
                                                 </span>
                                                 <div className="goals-result">
-                                                    <a href="single-team.html">
+                                                    <Link to='/perolehan-medali'>
                                                         <img src={Bantul} alt="" />
                                                         Bantul
-                                                    </a>
+                                                    </Link>
                                                     <span className="goals">
                                                         <b>2</b> - <b>3</b>
                                                         <Link to='/perolehan-medali'>
@@ -32,10 +32,10 @@ class ResultListComponent extends Component<any, any> {
                                                         </Link>
                                                         
                                                     </span>
-                                                    <a href="single-team.html">
+                                                    <Link to='/perolehan-medali'>
                                                         <img src={KJ} alt="" />
                                                         Yogyakarta
-                                                    </a>
+                                                    </Link>
                                                 </div>
                                             </li>
                                             <li>
@@ -43,20 +43,20 @@ class ResultListComponent extends Component<any, any> {
                                                     Bantul Vs Yogyakarta | Cabor Sepakbola <span className="date">27 AGT 2019</span>
                                                 </span>
                                                 <div className="goals-result">
-                                                    <a href="single-team.html">
+                                                    <Link to='/perolehan-medali'>
                                                         <img src={Bantul} alt="" />
                                                         Bantul
-                                                    </a>
+                                                    </Link>
                                                     <span className="goals">
                                                         <b>2</b> - <b>3</b>
                                                         <Link to='/perolehan-medali'>
                                                             <span className="btn theme white-text">1 Emas untuk Yogyakarta</span>
                                                         </Link>
                                                     </span>
-                                                    <a href="single-team.html">
+                                                    <Link to='/perolehan-medali'>
                                                         <img src={KJ} alt="" />
                                                         Yogyakarta
-                                                    </a>
+                                                    </Link>
                                                 </div>
                                             </li>
                                         </ul>

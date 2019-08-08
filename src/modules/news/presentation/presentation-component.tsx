@@ -17,7 +17,7 @@ class PresentationComponent extends Component {
                     
                         <div className="info-panel">
                             <h4>Yogyakarta</h4>
-                            <p>Lorem ipsum dolor sit amet, sit amet, consectetur adipisicing elit, elit,
+                            <p className="fs-12">Lorem ipsum dolor sit amet, sit amet, consectetur adipisicing elit, elit,
                                 incididunt ut labore et dolore magna aliqua sit amet, consectetur adipisicing
                                 elit,</p>
                         </div>
