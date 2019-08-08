@@ -20,6 +20,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
      ```shell
      $ npm start
      ```
+### `Check it on`
+    ```shell
+     https://pordaxv-jogja.herokuapp.com/
+    ```
 
 ```shell
 *Contact Me*
