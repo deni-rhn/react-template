@@ -35,6 +35,102 @@ class TeamListComponent extends Component {
                                             aria-hidden="true"></i></a>
                                 </div>
                             </div>
+                            <div className="col-md-6 col-lg-4 col-xl-3 group-a">
+                                <div className="item-team">
+                                    <div className="head-team">
+                                        <img src={PorTeams} alt="location-team" />
+                                        <div className="overlay"><a href="single-team.html">+</a></div>
+                                    </div>
+                                    <div className="info-team">
+                                        <span className="logo-team">
+                                            <img src={Por} alt="logo-team" />
+                                        </span>
+                                        <h4>Yogyakarta</h4>
+                                        <span className="location-team">
+                                            <i className="fa fa-map-marker" aria-hidden="true"></i>
+                                            Stadium
+                                        </span>
+                                        <span className="group-team">
+                                            <i className="fa fa-trophy" aria-hidden="true"></i>
+                                            Group A
+                                        </span>
+                                    </div>
+                                    <a href="single-team.html" className="btn">Team Profile <i className="fa fa-angle-right"
+                                            aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                            <div className="col-md-6 col-lg-4 col-xl-3 group-a">
+                                <div className="item-team">
+                                    <div className="head-team">
+                                        <img src={PorTeams} alt="location-team" />
+                                        <div className="overlay"><a href="single-team.html">+</a></div>
+                                    </div>
+                                    <div className="info-team">
+                                        <span className="logo-team">
+                                            <img src={Por} alt="logo-team" />
+                                        </span>
+                                        <h4>Sleman</h4>
+                                        <span className="location-team">
+                                            <i className="fa fa-map-marker" aria-hidden="true"></i>
+                                            Stadium
+                                        </span>
+                                        <span className="group-team">
+                                            <i className="fa fa-trophy" aria-hidden="true"></i>
+                                            Group A
+                                        </span>
+                                    </div>
+                                    <a href="single-team.html" className="btn">Team Profile <i className="fa fa-angle-right"
+                                            aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                            <div className="col-md-6 col-lg-4 col-xl-3 group-a">
+                                <div className="item-team">
+                                    <div className="head-team">
+                                        <img src={PorTeams} alt="location-team" />
+                                        <div className="overlay"><a href="single-team.html">+</a></div>
+                                    </div>
+                                    <div className="info-team">
+                                        <span className="logo-team">
+                                            <img src={Por} alt="logo-team" />
+                                        </span>
+                                        <h4>Bantul</h4>
+                                        <span className="location-team">
+                                            <i className="fa fa-map-marker" aria-hidden="true"></i>
+                                            Stadium
+                                        </span>
+                                        <span className="group-team">
+                                            <i className="fa fa-trophy" aria-hidden="true"></i>
+                                            Group A
+                                        </span>
+                                    </div>
+                                    <a href="single-team.html" className="btn">Team Profile <i className="fa fa-angle-right"
+                                            aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                            <div className="col-md-6 col-lg-4 col-xl-3 group-a">
+                                <div className="item-team">
+                                    <div className="head-team">
+                                        <img src={PorTeams} alt="location-team" />
+                                        <div className="overlay"><a href="single-team.html">+</a></div>
+                                    </div>
+                                    <div className="info-team">
+                                        <span className="logo-team">
+                                            <img src={Por} alt="logo-team" />
+                                        </span>
+                                        <h4>Kulon Progo</h4>
+                                        <span className="location-team">
+                                            <i className="fa fa-map-marker" aria-hidden="true"></i>
+                                            Stadium
+                                        </span>
+                                        <span className="group-team">
+                                            <i className="fa fa-trophy" aria-hidden="true"></i>
+                                            Group A
+                                        </span>
+                                    </div>
+                                    <a href="single-team.html" className="btn">Team Profile <i className="fa fa-angle-right"
+                                            aria-hidden="true"></i></a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </section>

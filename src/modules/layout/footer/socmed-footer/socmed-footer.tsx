@@ -6,7 +6,7 @@ class SocmedFooter extends Component {
             <Fragment>
                 <div className="col-lg-12">
                     <div className="logo-footer">
-                        <h2>Sports Cup</h2>
+                        <h2>PORDA XV 2019</h2>
                     </div>
                 </div>
 

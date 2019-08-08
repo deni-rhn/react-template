@@ -1,5 +1,5 @@
 import React, { Component, Fragment } from 'react';
-import Iframe from 'react-iframe'
+import Logo from '../../../assets/img/logo/koni-jogja.png';
 
 class PresentationComponent extends Component {
     render() {
@@ -7,15 +7,16 @@ class PresentationComponent extends Component {
             <Fragment>
                 <div className="panel-box">
                     <div className="titles no-margin">
-                        <h4>Presentation</h4>
+                        <h4>Presentasi</h4>
                     </div>
 
                     <div className="row">
-                    <Iframe
-                        url='https://www.youtube.com/embed/AfOlAUd7u4o'
-                    />
+                        <div className="margin-0-auto">
+                            <img src={Logo} alt=""/>
+                        </div>
+                    
                         <div className="info-panel">
-                            <h4>Rio de Janeiro</h4>
+                            <h4>Yogyakarta</h4>
                             <p>Lorem ipsum dolor sit amet, sit amet, consectetur adipisicing elit, elit,
                                 incididunt ut labore et dolore magna aliqua sit amet, consectetur adipisicing
                                 elit,</p>

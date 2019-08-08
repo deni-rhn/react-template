@@ -10,6 +10,7 @@ class NavComponent extends Component<any, any> {
     render(){
         return(
             <Fragment>
+
                 <nav className="mainmenu nav-sticky">
                     <div className="container">
 
@@ -109,13 +110,41 @@ class NavComponent extends Component<any, any> {
                     </div>
                 </nav>
 
-                <div id="mobile-nav">
+                <div id="mobile-nav" className="mobile-sticky navbar-fixed-top zi">
 
                     <div className="pos-f-t">
                         <div className="collapse" id="navbarToggleExternalContent">
-                            <div className="bg-white p-4">
-                                <h5 className="text-white h4">Collapsed content</h5>
-                                <span className="text-muted">Toggleable via the navbar brand.</span>
+                            <div className="bg-white">
+                                <ul className="list-group mob-li">
+                                    <li className="list-group-item">
+                                        <Link to='/perolehan-medali'>
+                                            <span>Perolehan Medali</span>
+                                        </Link>
+                                    </li>
+                                    <li className="list-group-item">
+                                        <Link to="/daftar-tim">
+                                            <span>Data Team</span>
+                                        </Link>
+                                    </li>
+                                    <li className="list-group-item">
+                                        <div className="btn-group dropright">
+                                            <button type="button" className="btn btn-tg dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                Informasi
+                                            </button>
+                                            <div className="dropdown-menu">
+                                                <Link to="/hasil-pertandingan">
+                                                    <span className="dropdown-item">Cek Hasil Pertandingan</span>
+                                                </Link>
+                                                <Link to="/jadwal-pertandingan">
+                                                    <span className="dropdown-item">Cek Jadwal Pertandingan</span>
+                                                </Link>
+                                                <Link to="/medali-cabang">
+                                                    <span className="dropdown-item">Perolehan Medali Per Cabang</span>
+                                                </Link>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
                             </div>
                         </div>
                         <nav className="navbar navbar-dark bg-dark">
@@ -124,7 +153,7 @@ class NavComponent extends Component<any, any> {
                             </button>
                         </nav>
                     </div>
-                    
+
                 </div>
             
             </Fragment>

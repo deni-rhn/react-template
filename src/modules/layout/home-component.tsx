@@ -32,7 +32,7 @@ class HomeComponent extends Component<any, any> {
                         <div className="btn-instagram">
                             <i className="fa fa-instagram"></i>
                             FOLLOW
-                            <span>&#64;fifaworldcup</span>
+                            <span>&#64;pordaxv2019</span>
                         </div>
                     </div>
             </Fragment>

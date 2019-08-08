@@ -10,15 +10,132 @@
     background: url('../img/slider/3.jpg');
 }
 
-.nav-sticky {
+.nav-sticky, 
+.mobile-sticky {
     position: sticky !important;
     top: 0px;
 }
 
+.zi{
+    z-index: 100;
+}
+
+.mob-li > li > a > span {
+    color: #000000;
+}
+
+.btn-tg{
+    background: transparent !important;
+    color: #000000;
+}
+
 .bg-custom {
-    background: url('../img/slider/1.jpg');   
+    background: url('../img/slider/slide-1.jpg');   
 }
 
 .filter-class {
     margin-bottom: 25px;
 }
+
+@media(max-width:1199px) {
+    .nav-sticky {
+        display: none
+    }
+}
+
+
+#jumboCarousel {
+    margin-top: 70px;
+    min-height: 300px;
+    min-width: 100%;
+}
+#jumboCarousel img {
+    min-height: 300px;
+    min-width: 100%;
+}
+#jumboCarousel > .carousel-indicators > li {
+    border-radius: 0px;
+    min-width: 25px;
+    background-color: #9d9d9d;
+    border: 1px solid black;
+    margin-right: 10px;;
+    margin-left: 10px;;
+}
+#jumboCarousel > .carousel-indicators > .active {
+    background-color: orange;
+}
+#jumboCarousel .carousel-caption {
+    color: black;
+    right: 58%;
+    text-align: center;
+    max-width: 500px;
+    left: auto;
+    /*top: auto;*/
+  top: 50%;
+  transform: translateY(-50%);
+  bottom: initial;
+}
+
+.item {
+    -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+.title-slider{
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.white-text{
+    color: #ffffff !important;
+}
+
+.cst{
+    margin: 20px 0px 0px 0px !important;
+}
+
+.mt-10{
+    margin-top: 20px !important;
+}
+
+.mb-20{
+    margin-bottom: 20px;
+}
+
+.p-8{
+    padding: 8px;
+}
+
+.fs-8{
+    font-size: 9px;
+}
+
+.no-border{
+    border: 0px !important;
+}
+
+.wrapper {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .wrapper:after {
+    content: '';
+    display: block;
+    padding-top: 65%;
+  }
+  
+  .wrapper img {
+    width: auto;
+    height: 80%;
+    max-width: none;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+  }
+
+  .margin-0-auto{
+      margin: 0 auto;
+  }

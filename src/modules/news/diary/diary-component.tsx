@@ -1,8 +1,6 @@
 import React, { Component, Fragment } from 'react';
-import Bra from '../../../assets/img/club-logo/bra.png';
-import Rus from '../../../assets/img/club-logo/rusia.png';
-import SA from '../../../assets/img/club-logo/arabia.png';
-import Cos from '../../../assets/img/club-logo/costa-rica.png';
+import Bantul from '../../../assets/img/logo/Bantul.png';
+import Sleman from '../../../assets/img/logo/sleman3.png';
 
 class DiaryComponent extends Component {
     render() {
@@ -10,70 +8,75 @@ class DiaryComponent extends Component {
             <Fragment>
                 <div className="panel-box">
                     <div className="titles">
-                        <h4><i className="fa fa-calendar"></i>Diary</h4>
+                        <h4><i className="fa fa-calendar"></i>Jadwal Pertandingan</h4>
                     </div>
 
                     <ul className="list-diary">
 
                         <li>
-                            <h6>GROUP A <span>14 JUN 2018 - 18:00</span></h6>
+                            <h6>SEPAKBOLA <span>14 OKT 2019 - 18:00</span></h6>
                             <ul className="club-logo">
                                 <li>
-                                    <img src={Rus} alt="" />
-                                    <span>RUSSIA</span>
+                                    <img src={Bantul} alt="" />
+                                    <span>BANTUL</span>
                                 </li>
                                 <li>
-                                    <img src={SA} alt="" />
-                                    <span>SAUDI ARABIA</span>
+                                    <img src={Sleman} alt="" />
+                                    <span>SLEMAN</span>
                                 </li>
                             </ul>
                         </li>
 
 
                         <li>
-                            <h6>GROUP E <span>22 JUN 2018 - 15:00</span></h6>
+                            <h6>SEPAKBOLA <span>14 OKT 2019 - 18:00</span></h6>
                             <ul className="club-logo">
                                 <li>
-                                    <img src={Bra} alt="" />
-                                    <span>BRAZIL</span>
+                                    <img src={Bantul} alt="" />
+                                    <span>BANTUL</span>
                                 </li>
                                 <li>
-                                    <img src={Cos} alt="" />
-                                    <span>COSTA RICA</span>
+                                    <img src={Sleman} alt="" />
+                                    <span>SLEMAN</span>
                                 </li>
                             </ul>
                         </li>
 
                         <li>
-                            <h6>GROUP A <span>14 JUN 2018 - 18:00</span></h6>
+                            <h6>SEPAKBOLA <span>14 OKT 2019 - 18:00</span></h6>
                             <ul className="club-logo">
                                 <li>
-                                    <img src={Rus} alt="" />
-                                    <span>RUSSIA</span>
+                                    <img src={Bantul} alt="" />
+                                    <span>BANTUL</span>
                                 </li>
                                 <li>
-                                    <img src={SA} alt="" />
-                                    <span>SAUDI ARABIA</span>
+                                    <img src={Sleman} alt="" />
+                                    <span>SLEMAN</span>
                                 </li>
                             </ul>
                         </li>
 
 
                         <li>
-                            <h6>GROUP E <span>22 JUN 2018 - 15:00</span></h6>
+                            <h6>SEPAKBOLA <span>14 OKT 2019 - 18:00</span></h6>
                             <ul className="club-logo">
                                 <li>
-                                    <img src={Bra} alt="" />
-                                    <span>BRAZIL</span>
+                                    <img src={Bantul} alt="" />
+                                    <span>BANTUL</span>
                                 </li>
                                 <li>
-                                    <img src={Cos} alt="" />
-                                    <span>COSTA RICA</span>
+                                    <img src={Sleman} alt="" />
+                                    <span>SLEMAN</span>
                                 </li>
                             </ul>
                         </li>
 
                     </ul>
+
+                    <div className="text-right mt-10 p-8">
+                        <button className="btn btn-sm btn-info">Selengkapnya ></button>
+                        <p className="fs-8">*akan berfungsi menampilkan seluruh jadwal nantinya</p>
+                    </div>
 
                 </div>
             </Fragment>
