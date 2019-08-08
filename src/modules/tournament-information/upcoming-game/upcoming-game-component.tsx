@@ -25,17 +25,17 @@ class UpcomingGameComponent extends Component {
                             </ul>
                             <div className="list-groups">
                                 <div className="row align-items-center">
-                                    <div className="col-md-12">
+                                    <div className="col-12">
                                         <p>SEPAKBOLA, Stadion Mandala Krida</p>
                                     </div>
-                                    <div className="col-md-5">
+                                    <div className="col-5">
                                         <img src={sleman} alt="" />
                                         <span>Kab. Sleman</span>
                                     </div>
-                                    <div className="col-md-2">
+                                    <div className="col-2">
                                         <div className="vs">Vs</div>
                                     </div>
-                                    <div className="col-md-5">
+                                    <div className="col-5">
                                         <img src={bantul} alt="" />
                                         <span>Kab. Bantul</span>
                                     </div>

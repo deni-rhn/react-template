@@ -16,44 +16,44 @@ class PlayerInfoComponent extends Component {
                     
                     <div className="row">
 
-                        <div className="col-xs-6 col-sm-3 col-md-4 col-lg-4 mt-10 mb-20">
+                        <div className="col-4 col-lg-4 mt-10 mb-20">
                             <div className="card no-border">
                                 <div className="wrapper">
                                     <img className="card-img-top img-fluid" src={Bantul} alt="" />
                                 </div>
-                                <h4 className="card-title text-center">Bantul</h4>
+                                <h4 className="card-title fs-12 text-center">Bantul</h4>
                             </div>
                         </div>
-                        <div className="col-xs-6 col-sm-3 col-md-4 col-lg-4 mt-10 mb-20">
+                        <div className="col-4 col-lg-4 mt-10 mb-20">
                             <div className="card no-border">
                                 <div className="wrapper">
                                     <img className="card-img-top img-fluid" src={GK} alt="" />
                                 </div>
-                                <h4 className="card-title text-center">Gunungkidul</h4>
+                                <h4 className="card-title fs-12 text-center">Gunungkidul</h4>
                             </div>
                         </div>
-                        <div className="col-xs-6 col-sm-3 col-md-4 col-lg-4 mt-10 mb-20">
+                        <div className="col-4 col-lg-4 mt-10 mb-20">
                             <div className="card no-border">
                                 <div className="wrapper">
                                     <img className="card-img-top img-fluid" src={KJ} alt="" />
                                 </div>
-                                <h4 className="card-title text-center">Yogyakarta</h4>
+                                <h4 className="card-title fs-12 text-center">Yogyakarta</h4>
                             </div>
                         </div>
-                        <div className="col-xs-6 col-sm-3 col-md-4 col-lg-4 mt-10 mb-20">
+                        <div className="col-4 col-lg-4 mt-10 mb-20">
                             <div className="card no-border">
                                 <div className="wrapper">
                                     <img className="card-img-top img-fluid" src={Kprogo} alt="" />
                                 </div>
-                                <h4 className="card-title text-center">Kulon Progo</h4>
+                                <h4 className="card-title fs-12 text-center">Kulon Progo</h4>
                             </div>
                         </div>
-                        <div className="col-xs-6 col-sm-3 col-md-4 col-lg-4 mt-10 mb-20">
+                        <div className="col-4 col-lg-4 mt-10 mb-20">
                             <div className="card no-border">
                                 <div className="wrapper">
                                     <img className="card-img-top img-fluid" src={Sleman} alt="" />
                                 </div>
-                                <h4 className="card-title text-center">Sleman</h4>
+                                <h4 className="card-title fs-12 text-center">Sleman</h4>
                             </div>
                         </div>
 

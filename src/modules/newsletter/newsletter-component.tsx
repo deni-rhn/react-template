@@ -10,7 +10,7 @@ class NewsletterComponent extends Component {
                         <div className="text-center">
                             <h2>Kata kata <span className="text-resalt">simple</span> ditaruh disini
                             </h2>
-                            <p>Duis non lorem porta, eros sit amet, tempor sem. Donec nunc arcu, semper a tempus et,
+                            <p className="fs-12">Duis non lorem porta, eros sit amet, tempor sem. Donec nunc arcu, semper a tempus et,
                                 consequat.</p>
                         </div>
                         

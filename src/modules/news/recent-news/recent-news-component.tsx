@@ -15,37 +15,37 @@ class RecentNewsComponent extends Component {
 
                     <div className="post-item">
                         <div className="row">
-                            <div className="col-md-3 mt-10">
+                            <div className="col-3 mt-10">
                                 <img src={Tenis} alt=""/>
-                                <p className="text-center cst">Tenis Meja</p>
+                                <p className="text-center fs-12 cst">Tenis Meja</p>
                             </div>
-                            <div className="col-md-3 mt-10">
+                            <div className="col-3 mt-10">
                                 <img src={Takraw} alt=""/>
-                                <p className="text-center cst">Sepak Takraw</p>
+                                <p className="text-center fs-12 cst">Sepak Takraw</p>
                             </div>
-                            <div className="col-md-3 mt-10">
+                            <div className="col-3 mt-10">
                                 <img src={Sroda} alt=""/>
-                                <p className="text-center cst">Sepatu Roda</p>
+                                <p className="text-center fs-12 cst">Sepatu Roda</p>
                             </div>
-                            <div className="col-md-3 mt-10">
+                            <div className="col-3 mt-10">
                                 <img src={Panahan} alt=""/>
-                                <p className="text-center cst">Panahan</p>
+                                <p className="text-center fs-12 cst">Panahan</p>
                             </div>
-                            <div className="col-md-3 mt-10">
+                            <div className="col-3 mt-10">
                                 <img src={Tenis} alt=""/>
-                                <p className="text-center cst">Tenis Meja</p>
+                                <p className="text-center fs-12 cst">Tenis Meja</p>
                             </div>
-                            <div className="col-md-3 mt-10">
+                            <div className="col-3 mt-10">
                                 <img src={Takraw} alt=""/>
-                                <p className="text-center cst">Sepak Takraw</p>
+                                <p className="text-center fs-12 cst">Sepak Takraw</p>
                             </div>
-                            <div className="col-md-3 mt-10">
+                            <div className="col-3 mt-10">
                                 <img src={Sroda} alt=""/>
-                                <p className="text-center cst">Sepatu Roda</p>
+                                <p className="text-center fs-12 cst">Sepatu Roda</p>
                             </div>
-                            <div className="col-md-3 mt-10">
+                            <div className="col-3 mt-10">
                                 <img src={Panahan} alt=""/>
-                                <p className="text-center cst">Panahan</p>
+                                <p className="text-center fs-12 cst">Panahan</p>
                             </div>
                             <div className="col-md-12 text-right mt-10">
                                 <button className="btn btn-info">Lihat selengkapnya ></button>
