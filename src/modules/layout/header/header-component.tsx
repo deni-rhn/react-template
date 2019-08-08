@@ -1,7 +1,7 @@
 import React, { Component, Fragment } from 'react';
 import '../../../assets/css/_polda_diy.css';
 import '../../../assets/css/custom.css';
-import logo from '../../../assets/img/logo.png';
+import logo from '../../../assets/img/logo/koni-jogja.png';
 import 'bootstrap/dist/js/bootstrap.min.js';
 import {Link} from 'react-router-dom';
 
