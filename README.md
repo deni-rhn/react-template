@@ -22,8 +22,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
      ```
 ### `Check it on`
    - Go to
-    ```shell
-     $ cd https://pordaxv-jogja.herokuapp.com/
+    ```
+     url : https://pordaxv-jogja.herokuapp.com/
     ```
 
 ```shell
