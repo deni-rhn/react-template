@@ -8,7 +8,7 @@ class BgCustomComponent extends Component {
                     <div className="container">
                         <div className="row">
                             <div className="col-md-8">
-                                <h1>Points Table</h1>
+                                <h1>Title Informasi berdasarkan halaman</h1>
                             </div>
                             <div className="col-md-4">
                                 <div className="breadcrumbs">

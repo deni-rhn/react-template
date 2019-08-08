@@ -1,7 +1,8 @@
 import React, { Component, Fragment } from 'react';
 import BgCustomComponent from '../../layout/bg-custom/bg-custom-component';
-import Uru from '../../../assets/img/club-logo/uru.png';
-import Por from '../../../assets/img/club-logo/por.png';
+import Bantul from '../../../assets/img/logo/Bantul.png';
+import KJ from '../../../assets/img/logo/kota-jogja.png';
+import {Link} from 'react-router-dom';
 
 class ResultListComponent extends Component<any, any> {
     render() {
@@ -17,39 +18,44 @@ class ResultListComponent extends Component<any, any> {
                                         <ul>
                                             <li>
                                                 <span className="head">
-                                                    Portugal Vs Spain <span className="date">27 Jun 2017</span>
+                                                    Bantul Vs Yogyakarta | Cabor Sepakbola <span className="date">27 AGT 2019</span>
                                                 </span>
                                                 <div className="goals-result">
                                                     <a href="single-team.html">
-                                                        <img src={Por} alt="" />
-                                                        Portugal
+                                                        <img src={Bantul} alt="" />
+                                                        Bantul
                                                     </a>
                                                     <span className="goals">
                                                         <b>2</b> - <b>3</b>
-                                                        <a href="single-result.html" className="btn theme">View More</a>
+                                                        <Link to='/perolehan-medali'>
+                                                            <span className="btn theme white-text">1 Emas untuk Yogyakarta</span>
+                                                        </Link>
+                                                        
                                                     </span>
                                                     <a href="single-team.html">
-                                                        <img src={Uru} alt="" />
-                                                        Spain
+                                                        <img src={KJ} alt="" />
+                                                        Yogyakarta
                                                     </a>
                                                 </div>
                                             </li>
                                             <li>
                                                 <span className="head">
-                                                    Rusia Vs Colombia <span className="date">30 Jun 2017</span>
+                                                    Bantul Vs Yogyakarta | Cabor Sepakbola <span className="date">27 AGT 2019</span>
                                                 </span>
                                                 <div className="goals-result">
                                                     <a href="single-team.html">
-                                                        <img src={Por} alt="" />
-                                                        Rusia
+                                                        <img src={Bantul} alt="" />
+                                                        Bantul
                                                     </a>
                                                     <span className="goals">
                                                         <b>2</b> - <b>3</b>
-                                                        <a href="single-result.html" className="btn theme">View More</a>
+                                                        <Link to='/perolehan-medali'>
+                                                            <span className="btn theme white-text">1 Emas untuk Yogyakarta</span>
+                                                        </Link>
                                                     </span>
                                                     <a href="single-team.html">
-                                                        <img src={Uru} alt="" />
-                                                        Colombia
+                                                        <img src={KJ} alt="" />
+                                                        Yogyakarta
                                                     </a>
                                                 </div>
                                             </li>

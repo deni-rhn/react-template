@@ -1,7 +1,7 @@
 import React, { Component, Fragment } from 'react';
 import BgCustomComponent from '../layout/bg-custom/bg-custom-component';
-import Uru from '../../assets/img/club-logo/uru.png';
-import Por from '../../assets/img/club-logo/por.png';
+import Bantul from '../../assets/img/logo/Bantul.png';
+import KJ from '../../assets/img/logo/kota-jogja.png';
 
 class ScheduleComponent extends Component {
     render() {
@@ -12,7 +12,7 @@ class ScheduleComponent extends Component {
                     <div className="container paddings-mini">
                         <div className="row">
                             <div className="col-lg-12">
-                                <h3 className="clear-title">Matches</h3>
+                                <h3 className="clear-title">Jadwal Lengkap Pertandingan</h3>
                             </div>
                             <div className="col-lg-12">
                                 <table className="table-striped table-responsive table-hover">
@@ -21,25 +21,63 @@ class ScheduleComponent extends Component {
                                             <th>Team A</th>
                                             <th className="text-center">VS</th>
                                             <th>Team B</th>
+                                            <th>Cabang Olahraga</th>
                                             <th>Details</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <tr>
                                             <td>
-                                                <img src={Uru} alt="icon" />
-                                                <strong>Colombia</strong><br />
-                                                <small className="meta-text">GROUP H.</small>
+                                                <img src={Bantul} alt="icon" />
+                                                <strong>Bantul</strong><br />
                                             </td>
                                             <td className="text-center">Vs</td>
                                             <td>
-                                                <img src={Por} alt="icon1" />
-                                                <strong>Japan</strong><br />
-                                                <small className="meta-text">GROUP H.</small>
+                                                <img src={KJ} alt="icon1" />
+                                                <strong>Yogyakarta</strong><br />
                                             </td>
                                             <td>
-                                                Jun 19, 07:00<br /> 
-                                                <small className="meta-text">Mordovia Arena,Saransk</small>
+                                                SEPAKBOLA
+                                            </td>
+                                            <td>
+                                                1 Oktober 2019, 15:00:00<br /> 
+                                                <small className="meta-text">Stadion Mandala Krida</small>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <img src={Bantul} alt="icon" />
+                                                <strong>Bantul</strong><br />
+                                            </td>
+                                            <td className="text-center">Vs</td>
+                                            <td>
+                                                <img src={KJ} alt="icon1" />
+                                                <strong>Yogyakarta</strong><br />
+                                            </td>
+                                            <td>
+                                                SEPAKBOLA
+                                            </td>
+                                            <td>
+                                                1 Oktober 2019, 15:00:00<br /> 
+                                                <small className="meta-text">Stadion Mandala Krida</small>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <img src={Bantul} alt="icon" />
+                                                <strong>Bantul</strong><br />
+                                            </td>
+                                            <td className="text-center">Vs</td>
+                                            <td>
+                                                <img src={KJ} alt="icon1" />
+                                                <strong>Yogyakarta</strong><br />
+                                            </td>
+                                            <td>
+                                                SEPAKBOLA
+                                            </td>
+                                            <td>
+                                                1 Oktober 2019, 15:00:00<br /> 
+                                                <small className="meta-text">Stadion Mandala Krida</small>
                                             </td>
                                         </tr>
                                     </tbody>
