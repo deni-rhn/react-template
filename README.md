@@ -22,7 +22,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
      ```
 ### `Check it on`
     
-    * https://pordaxv-jogja.herokuapp.com/ *
+    https://pordaxv-jogja.herokuapp.com/
 
 ```shell
 *Contact Me*
