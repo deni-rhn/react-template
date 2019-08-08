@@ -1,6 +1,6 @@
 import React, { Component,Fragment } from 'react';
 import StatisticComponent from '../statistic/statistic-component';
-import GroupsComponent from '../groups/groups-component';
+// import GroupsComponent from '../groups/groups-component';
 import DescriptionComponent from '../description/description-component';
 import UpcomingGameComponent from '../upcoming-game/upcoming-game-component';
 
@@ -15,15 +15,15 @@ class PatternInformationComponent extends Component {
                             <div className="col-xl-9 col-md-12">
 
                                 <ul className="nav nav-tabs" id="myTab">
-                                    <li className="nav-item"><a href="#statistics" data-toggle="tab">STATISTICS</a></li>
-                                    <li className="nav-item"><a href="#groups" data-toggle="tab">GROUPS</a></li>
-                                    <li className="nav-item"><a href="#description" data-toggle="tab">DESCRIPTION</a></li>
+                                    <li className="nav-item active"><a href="#statistics" data-toggle="tab">INFORMASI HANGAT</a></li>
+                                    {/* <li className="nav-item"><a href="#groups" data-toggle="tab">GROUPS</a></li> */}
+                                    <li className="nav-item"><a href="#description" data-toggle="tab">INFORMASI</a></li>
                                 </ul>
 
                                 <div className="tab-content">
 
                                     <StatisticComponent />
-                                    <GroupsComponent />
+                                    {/* <GroupsComponent /> */}
                                     <DescriptionComponent />
                                 
                                 </div>

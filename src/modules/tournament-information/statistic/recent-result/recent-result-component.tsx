@@ -4,45 +4,41 @@ class RecentResultComponent extends Component {
     render() {
         return(
             <Fragment>
-                <div className="col-lg-4">
+                <div className="col-lg-5">
                     <div className="recent-results">
-                        <h5><a href="group-list.html">Recent Result</a></h5>
+                        <h5><span>Berita Terkini</span></h5>
                         <div className="info-results">
                             <ul>
                                 <li>
                                     <span className="head">
-                                        Portugal Vs Spain <span className="date">27 Jun 2017</span>
+                                        Medali Emas <span className="date">27 Agustus 2019</span>
                                     </span>
                                     <div className="goals-result">
-                                        <a href="single-team.html">
-                                            <img src="../../../../assets/img/club-logo/esp.png" alt="" />
-                                            Spain
-                                        </a>
+                                        <div>
+                                            <span className="white-text">Gunugkidul</span>
+                                        </div>
                                         <span className="goals">
-                                            <b>2</b> - <b>3</b>
+                                            <b>2</b>
                                         </span>
-                                        <a href="single-team.html">
-                                            <img src="../../../../assets/img/club-logo/por.png" alt="" />
-                                            Portugal
-                                        </a>
+                                        <div>
+                                            <span className="white-text"> di Cabor Bulutangkis</span>
+                                        </div>
                                     </div>
                                 </li>
                                 <li>
                                     <span className="head">
-                                        Rusia Vs Colombia <span className="date">30 Jun 2017</span>
+                                        Medali Emas <span className="date">27 Agustus 2019</span>
                                     </span>
                                     <div className="goals-result">
-                                        <a href="single-team.html">
-                                            <img src="../../../../assets/img/club-logo/rusia.png" alt="" />
-                                            Rusia
-                                        </a>
+                                        <div>
+                                            <span className="white-text">Jogjakarta</span>
+                                        </div>
                                         <span className="goals">
-                                            <b>2</b> - <b>3</b>
+                                            <b>2</b>
                                         </span>
-                                        <a href="single-team.html">
-                                            <img src="../../../../assets/img/club-logo/colombia.png" alt="" />
-                                            Colombia
-                                        </a>
+                                        <div>
+                                            <span className="white-text"> di Cabor Renang</span>
+                                        </div>
                                     </div>
                                 </li>
                             </ul>
