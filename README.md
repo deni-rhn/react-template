@@ -21,9 +21,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
      $ npm start
      ```
 ### `Check it on`
-    ```shell
-     https://pordaxv-jogja.herokuapp.com/
-    ```
+    
+    * https://pordaxv-jogja.herokuapp.com/ *
 
 ```shell
 *Contact Me*
