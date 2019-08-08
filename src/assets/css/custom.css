@@ -90,3 +90,52 @@
 .white-text{
     color: #ffffff !important;
 }
+
+.cst{
+    margin: 20px 0px 0px 0px !important;
+}
+
+.mt-10{
+    margin-top: 20px !important;
+}
+
+.mb-20{
+    margin-bottom: 20px;
+}
+
+.p-8{
+    padding: 8px;
+}
+
+.fs-8{
+    font-size: 9px;
+}
+
+.no-border{
+    border: 0px !important;
+}
+
+.wrapper {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .wrapper:after {
+    content: '';
+    display: block;
+    padding-top: 65%;
+  }
+  
+  .wrapper img {
+    width: auto;
+    height: 80%;
+    max-width: none;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+  }
+
+  .margin-0-auto{
+      margin: 0 auto;
+  }
